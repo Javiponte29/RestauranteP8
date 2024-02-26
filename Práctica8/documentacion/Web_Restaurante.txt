@@ -1,0 +1,7 @@
+Web de Restaurante:
+Página de INICIO presentando el restaurante (especialidades e historia del restaurante).(Ejemplo:https://casacarmenrestaurant.com/)
+(Ejemplo: https://www.eirarestaurante.com/)
+Página de CARTA dibidida en Entrantes, Platos, Postre, bebidas(vinos, refrescos, cervezas y agua), sobremesa(café e infusiones). (Ejemplo:https://ecarta.com.es/ofieital/)
+Página de RESERVA con información del local con la ubicaión(escrito y mapa), correo, horario y teléfono. Reserva de mesa. (Ejemplo: https://casacarmenrestaurant.com/restaurantes/alcala/)
+Página de LOGIN nombre y apellidos, número de teléfono, email y botón guardar.
+Contenido barra de navegación: Logo, Inicio, Carta, Reserva y Login.
