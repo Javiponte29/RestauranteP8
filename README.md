@@ -8,4 +8,4 @@ World Bites es un resaurante para que cualquier persona interesada en platos de 
 Francisco Javier Ponte Yáñez.
 
 # Tecnologías:
-Se utilizó figma para el diseño del proyecto y html, css y Tailwind css para la implementación.
+Se utilizó figma para el diseño del proyecto y html, css, javascript y Tailwind css para la implementación.
