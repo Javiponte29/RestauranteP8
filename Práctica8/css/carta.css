@@ -1,0 +1,19 @@
+main {
+    background-color: #F3E6BE;
+}
+
+h1 {
+    color: #9b3c2e;
+}
+
+main div div img {
+    width: 20em;
+}
+
+
+
+@media(min-width: 768px) {
+    .margen {
+        margin-top: -300px;
+    }
+}

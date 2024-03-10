@@ -1,0 +1,88 @@
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/spaguetis.jpg);
+    background-repeat: no-repeat;
+    height: 30em;
+}
+
+header h1 {
+    color: #9b3c2e;
+    font-family: 'Cherry Swash';
+}
+
+header a {
+    color: #9b3c2e;
+    background-color: #f3e6be;
+}
+
+article a {
+    color: #9b3c2e;
+    background-color: #B7C06F;
+} 
+
+/*header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/spaguetis.jpg);
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 8em;
+    color: #9b3c2e;
+    font-weight: bold;
+    font-family: 'Cherry Swash';
+}
+
+header a {
+    text-align: center;
+    color: #9b3c2e;
+    background-color: #f3e6be;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 50px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 4em;
+}
+
+article h2{
+    font-size: 3.5em;
+    text-align: left;;
+}
+
+article p {
+    font-size: 2em;
+    text-align: left;
+}
+
+article a {
+    text-align: center;
+    color: #9b3c2e;
+    background-color: #B7C06F;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 50px;
+    font-size: 2em;
+    font-weight: bold;
+    align-self: center;
+}
+
+aside img {
+    width: 100%;
+}*/

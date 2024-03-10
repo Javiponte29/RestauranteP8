@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/reserva.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="flex items-center grid grid-cols-4">
+        <div id="logo" class="col-span-1">
+            <a href="home.html"><img src="../img/logo.webp" alt="logo" class="w-2/3 mx-auto"></a>
+        </div>
+        <div id="enlaces-nav" class="hidden md:flex justify-around text-center col-span-2">
+            <a href="home.html" class="font-bold text-4xl">Home</a>
+            <a href="carta.html" class="font-bold text-4xl">Carta</a>
+            <a href="reserva.html" class="font-bold text-4xl">Reserva</a>
+        </div>
+        <div id="login" class="col-span-1">
+            <a href="#"><img src="../img/login-icon-bw.png" alt="Icono de inicio de sesión" class="w-1/5 mx-auto"></a>
+        </div>
+        <div class="md:hidden col-span-4">
+            <button id="toggle-menu" class="block text-4xl font-bold w-full text-center py-4"><svg class="h-8 w-8"  fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+            <div id="menu-items" class="hidden">
+                <a href="home.html" class="block text-4xl font-bold py-2 hover:bg-yellow-100">Home</a>
+                <a href="carta.html" class="block text-4xl font-bold py-2 hover:bg-yellow-100">Carta</a>
+                <a href="reserva.html" class="block text-4xl font-bold py-2 hover:bg-yellow-100">Reserva</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <h1 class="text-center text-6xl font-bold">Reservar Mesa</h1>
+        
+        <div class="max-w-md mx-auto p-8 ">
+            <form>
+                <div class="flex flex-wrap mb-4 -mx-2">
+                    <div class="w-full md:w-1/3 px-2 mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="date">Fecha:</label>
+                        <input id="date" name="date" type="text" class="border border-gray-300 rounded-md p-2 w-full" placeholder="Seleccionar Fecha">
+                    </div>
+                    <div class="w-full md:w-1/3 px-2 mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="time">Hora:</label>
+                        <input id="time" name="time" type="time" class="border border-gray-300 rounded-md p-2 w-full" placeholder="Seleccionar Hora">
+                    </div>
+                    <div class="w-full md:w-1/3 px-2 mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="guests">Personas:</label>
+                        <input id="guests" name="guests" type="number" class="border border-gray-300 rounded-md p-2 w-full" placeholder="Número de Personas">
+                    </div>
+                </div>
+                <div class="btn text-center py-2 rounded-full font-bold self-center">
+                    <button type="submit" class="">Reservar Mesa</button>
+                </div>
+            </form>
+        </div>
+        <div class="flex justify-around items-center flex-col md:flex-row">
+            <div class="ubi px-6 py-6 rounded">
+                <div class="flex pb-4">
+                    <svg class="h-8 w-8"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="7" />  <polyline points="12 9 12 12 13.5 13.5" />  <path d="M16.51 17.35l-.35 3.83a2 2 0 0 1-2 1.82H9.83a2 2 0 0 1-2-1.82l-.35-3.83m.01-10.7l.35-3.83A2 2 0 0 1 9.83 1h4.35a2 2 0 0 1 2 1.82l.35 3.83" /></svg>
+                    <p class="text-2xl pl-2">13:00-16:00</p>
+                </div>
+                <div class="flex pb-4">
+                    <svg class="h-8 w-8"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />  <circle cx="12" cy="10" r="3" /></svg>
+                    <p class="text-2xl pl-2">Calle San Juán A Coruña</p>
+                </div>
+                <div class="flex pb-4">
+                    <svg class="h-8 w-8"  fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                    <p class="text-2xl pl-2">981 631 725</p>
+                </div>
+                <div class="flex">
+                    <svg class="h-8 w-8"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <rect x="3" y="5" width="18" height="14" rx="2" />  <polyline points="3 7 12 13 21 7" /></svg>
+                    <p class="text-2xl pl-2">worldbites@gmail.com</p>
+                </div>
+            </div>
+            <div class="pt-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2900.1459050213457!2d-8.398388624358354!3d43.37397317044644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e7b87668348f3%3A0xce884d7726d4fcb8!2zQy4gU2FuIEp1w6FuLCBBIENvcnXDsWEsIDE1MDAxIExhIENvcnXDsWE!5e0!3m2!1ses!2ses!4v1709890571827!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </main>
+    <footer class="flex flex-col md:flex-row justify-around p-5">
+        <div class="flex flex-row">
+        <div>
+            <h3><a class="font-bold" href="home.html">Home</a></h3>
+            <h3><a class="font-bold" href="carta.html">Carta</a></h3>
+        </div>
+        <div>
+            <h3><a class="font-bold" href="reserva.html">Reserva</a></h3>
+            <h3><a class="font-bold" href="platos.html">Platos</a></h3>
+        </div>
+        </div>
+        <div class="flex justify-around flex-col md:flex-row w-full md:w-1/6 items-center">
+            <svg class="h-8 w-8 "  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg>
+            <svg class="h-8 w-8"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
+            <svg class="h-8 w-8"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84 0 0 0 .497 -3.753C20.18 7.773 21.692 5.25 22 4.009z" /></svg>
+        </div>
+    </footer>
+    <script src="../js/index.js"></script>
+</body>
+</html>

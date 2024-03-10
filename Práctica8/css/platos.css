@@ -1,0 +1,32 @@
+main {
+    background-color: #F3E6BE;
+}
+
+h1 {
+    color: #9b3c2e;
+}
+
+.fondo {
+    background-color: #EEDEAF;
+    width: 80%;
+    margin: 1em;
+}
+
+.imagen {
+    width: 15em;
+    height: 12em;
+}
+
+.fondo2 {
+    background-color: #EEDEAF;
+    width: 90%;
+    margin: 1em;
+}
+
+@media(max-width: 767px) {
+    .fondo2 {
+        background-color: #EEDEAF;
+        width: 80%;
+        margin: 1em;
+    }
+}

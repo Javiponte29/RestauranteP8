@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/carta.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="flex items-center grid grid-cols-4">
+        <div id="logo" class="col-span-1">
+            <a href="home.html"><img src="../img/logo.webp" alt="logo" class="w-2/3 mx-auto"></a>
+        </div>
+        <div id="enlaces-nav" class="hidden md:flex justify-around text-center col-span-2">
+            <a href="home.html" class="font-bold text-4xl">Home</a>
+            <a href="carta.html" class="font-bold text-4xl">Carta</a>
+            <a href="reserva.html" class="font-bold text-4xl">Reserva</a>
+        </div>
+        <div id="login" class="col-span-1">
+            <a href="#"><img src="../img/login-icon-bw.png" alt="Icono de inicio de sesión" class="w-1/5 mx-auto"></a>
+        </div>
+        <div class="md:hidden col-span-4">
+            <button id="toggle-menu" class="block text-4xl font-bold w-full text-center py-4"><svg class="h-8 w-8"  fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+            <div id="menu-items" class="hidden">
+                <a href="home.html" class="block text-4xl font-bold py-2 hover:bg-yellow-100">Home</a>
+                <a href="carta.html" class="block text-4xl font-bold py-2 hover:bg-yellow-100">Carta</a>
+                <a href="reserva.html" class="block text-4xl font-bold py-2 hover:bg-yellow-100">Reserva</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <h1 class="font-bold text-5xl text-center md:pt-20">World Bites</h1>
+        <div class="flex flex-col items-center md:flex-row justify-around">
+            <div class="py-10 margen">
+                <a href="#"><img src="../img/vino.jpg" alt="Copa de vino"></a>
+                <a href="#"><h2 class="font-bold text-center text-3xl">Bebidas</h2></a>
+            </div>
+            <div class="md:pt-40">
+                <a href="platos.html"><img src="../img/taco.webp" alt="Taco"></a>
+                <a href="platos.html"><h2 class="font-bold text-center text-3xl">Platos</h2></a>
+            </div>
+            <div class="py-10 margen">
+                <a href="#"><img src="../img/cake.jpg" alt="Pastel"></a>
+                <a href="#"><h2 class="font-bold text-center text-3xl">Postres</h2></a>
+            </div>
+        </div>
+    </main>
+    <footer class="flex flex-col md:flex-row justify-around p-5">
+        <div class="flex flex-row">
+        <div>
+            <h3><a class="font-bold" href="home.html">Home</a></h3>
+            <h3><a class="font-bold" href="carta.html">Carta</a></h3>
+        </div>
+        <div>
+            <h3><a class="font-bold" href="reserva.html">Reserva</a></h3>
+            <h3><a class="font-bold" href="platos.html">Platos</a></h3>
+        </div>
+        </div>
+        <div class="flex justify-around flex-col md:flex-row w-full md:w-1/6 items-center">
+            <svg class="h-8 w-8 "  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg>
+            <svg class="h-8 w-8"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
+            <svg class="h-8 w-8"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84 0 0 0 .497 -3.753C20.18 7.773 21.692 5.25 22 4.009z" /></svg>
+        </div>
+    </footer>
+    <script src="../js/index.js"></script>
+</body>
+</html>

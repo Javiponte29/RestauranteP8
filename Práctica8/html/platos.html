@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platos</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/platos.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="flex items-center grid grid-cols-4">
+        <div id="logo" class="col-span-1">
+            <a href="home.html"><img src="../img/logo.webp" alt="logo" class="w-2/3 mx-auto"></a>
+        </div>
+        <div id="enlaces-nav" class="hidden md:flex justify-around text-center col-span-2">
+            <a href="home.html" class="font-bold text-4xl">Home</a>
+            <a href="carta.html" class="font-bold text-4xl">Carta</a>
+            <a href="reserva.html" class="font-bold text-4xl">Reserva</a>
+        </div>
+        <div id="login" class="col-span-1">
+            <a href="#"><img src="../img/login-icon-bw.png" alt="Icono de inicio de sesión" class="w-1/5 mx-auto"></a>
+        </div>
+        <div class="md:hidden col-span-4">
+            <button id="toggle-menu" class="block text-4xl font-bold w-full text-center py-4"><svg class="h-8 w-8"  fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+            <div id="menu-items" class="hidden">
+                <a href="home.html" class="block text-4xl font-bold py-2 hover:bg-yellow-100">Home</a>
+                <a href="carta.html" class="block text-4xl font-bold py-2 hover:bg-yellow-100">Carta</a>
+                <a href="reserva.html" class="block text-4xl font-bold py-2 hover:bg-yellow-100">Reserva</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <h1 class="font-bold text-center text-5xl">Platos</h1>
+        <div class="flex items-center justify-around flex-col md:flex-row">
+            <div>
+                <div class="flex rounded fondo">
+                    <img class="rounded p-4 imagen" src="../img/franckfurt.jpg" alt="Salchicha Frankfurt">
+                    <div class="flex pt-4">
+                        <div>
+                            <h2 class="text-3xl font-bold">Frankfurt</h2>
+                            <p class="text-1.5xl pt-3">Frito de salchichas frankfurt en col  fermentada en salmuera.</p>
+                        </div>
+                        <div>
+                            <p class="pt-2 pr-8">12€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex rounded fondo">
+                    <img class="rounded p-4 imagen" src="../img/ramen.jpg" alt="Ramen">
+                    <div class="flex pt-4">
+                        <div>
+                            <h2 class="text-3xl font-bold">Ramen</h2>
+                            <p class="text-1.5xl pt-3">Caldo de fideos con miso, carne, huevos, zanahoria, cebolleta, ajo y salsa de soja.</p>
+                        </div>
+                        <div>
+                            <p class="pt-2 pr-8">15€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex rounded fondo">
+                    <img class="rounded p-4 imagen" src="../img/kebab.jpg" alt="Kebab">
+                    <div class="flex pt-4">
+                        <div>
+                            <h2 class="text-3xl font-bold">Kebab</h2>
+                            <p class="text-1.5xl pt-3">Mixto(ternera y pollo), lechuga, tomate, cebolla y salsa blanca.</p>
+                        </div>
+                        <div>
+                            <p class="pt-2 pr-8">8€</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="flex rounded fondo2">
+                    <img class="rounded p-4 imagen" src="../img/tacos2.jpg" alt="Tacos">
+                    <div class="flex pt-4">
+                        <div>
+                            <h2 class="text-3xl font-bold">Tacos</h2>
+                            <p class="text-1.5xl pt-3">2 tortillas con ternera, lechuga, tomate y guacamole.</p>
+                        </div>
+                        <div>
+                            <p class="pt-2 pr-8">13.50€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex rounded fondo2">
+                    <img class="rounded p-4 imagen" src="../img/spaguetis.jpg" alt="Spaguettis">
+                    <div class="flex pt-4">
+                        <div>
+                            <h2 class="text-3xl font-bold">Spaguettis</h2>
+                            <p class="text-1.5xl pt-3">Ajo, aceite, crema y setas.</p>
+                        </div>
+                        <div>
+                            <p class="pt-2 pr-8">16€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex rounded fondo2">
+                    <img class="rounded p-4 imagen" src="../img/empanadas.jpg" alt="Empanadas">
+                    <div class="flex pt-4">
+                        <div>
+                            <h2 class="text-3xl font-bold">Empanadas</h2>
+                            <p class="text-1.5xl pt-3">Empanadas de ternera, pollo, jamón y queso, chorizo y pescado.</p>
+                        </div>
+                        <div>
+                            <p class="pt-2 pr-8">15€</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex flex-col md:flex-row justify-around p-5">
+        <div class="flex flex-row">
+        <div>
+            <h3><a class="font-bold" href="home.html">Home</a></h3>
+            <h3><a class="font-bold" href="carta.html">Carta</a></h3>
+        </div>
+        <div>
+            <h3><a class="font-bold" href="reserva.html">Reserva</a></h3>
+            <h3><a class="font-bold" href="platos.html">Platos</a></h3>
+        </div>
+        </div>
+        <div class="flex justify-around flex-col md:flex-row w-full md:w-1/6 items-center">
+            <svg class="h-8 w-8 "  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg>
+            <svg class="h-8 w-8"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
+            <svg class="h-8 w-8"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84 0 0 0 .497 -3.753C20.18 7.773 21.692 5.25 22 4.009z" /></svg>
+        </div>
+    </footer>
+    <script src="../js/index.js"></script>
+</body>
+</html>

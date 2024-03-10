@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Bites</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link href='https://fonts.googleapis.com/css?family=Cherry Swash' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="flex items-center grid grid-cols-4">
+        <div id="logo" class="col-span-1">
+            <a href="home.html"><img src="../img/logo.webp" alt="logo" class="w-2/3 mx-auto"></a>
+        </div>
+        <div id="enlaces-nav" class="hidden md:flex justify-around text-center col-span-2">
+            <a href="home.html" class="font-bold text-4xl">Home</a>
+            <a href="carta.html" class="font-bold text-4xl">Carta</a>
+            <a href="reserva.html" class="font-bold text-4xl">Reserva</a>
+        </div>
+        <div id="login" class="col-span-1">
+            <a href="#"><img src="../img/login-icon-bw.png" alt="Icono de inicio de sesión" class="w-1/5 mx-auto"></a>
+        </div>
+        <div class="md:hidden col-span-4">
+            <button id="toggle-menu" class="block text-4xl font-bold w-full text-center py-4"><svg class="h-8 w-8"  fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+            <div id="menu-items" class="hidden">
+                <a href="home.html" class="block text-4xl font-bold py-2 hover:bg-yellow-100">Home</a>
+                <a href="carta.html" class="block text-4xl font-bold py-2 hover:bg-yellow-100">Carta</a>
+                <a href="reserva.html" class="block text-4xl font-bold py-2 hover:bg-yellow-100">Reserva</a>
+            </div>
+        </div>
+    </nav>
+    <header class="bg-center flex flex-col justify-around items-center bg-cover">
+        <h1 class="text-center text-9xl font-bold">World Bites</h1>
+        <a href="reserva.html" class="text-center hover:bg-yellow-100 px-8 py-4 rounded-full text-lg font-bold mt-8">Reservar</a>
+    </header>
+    <main>
+    <section class="flex flex-col md:flex-row">
+        <article class="flex flex-col justify-around w-full md:w-1/2 pl-16 pr-16">
+            <h2 class="text-5xl text-left font-bold">Franckfurt Alemana</h2>
+            <p class="text-3xl text-left">Frito de salchichas frankfurt en col fermentada en salmuera.</p>
+            <a href="carta.html" class="text-center py-2 px-14 text-3xl rounded-full font-bold self-center">Carta</a>
+        </article>
+        <aside class="w-full md:w-1/2">
+            <a href="carta.html"><img class="w-full" src="../img/franckfurt.jpg" alt="Salchichas Franckfurt"></a>
+        </aside>
+    </section>
+    <section class="flex flex-col md:flex-row">
+        <aside class="w-full md:w-1/2">
+            <a href="carta.html"><img src="../img/ramen.jpg" alt="Ramen"></a>
+        </aside>
+        <article class="flex flex-col justify-around w-full md:w-1/2 pl-16 pr-16">
+            <h2 class="text-5xl text-left font-bold">Ramen Japonés</h2>
+            <p class="text-3xl text-left">Caldo de fideos con miso, carne, huevos, zanahoria, cebolleta, ajo y salsa de soja.</p>
+            <a class="text-center py-2 px-14 text-3xl rounded-full font-bold self-center" href="carta.html">Carta</a>
+        </article>
+    </section>
+    <section class="flex flex-col md:flex-row">
+        <aside class="w-full md:w-1/3">
+            <img src="../img/restaurante.webp" alt="Imagen del restaurante">
+        </aside>
+        <article class="flex flex-col justify-around w-full md:w-1/2 pl-16 pr-16">
+            <h2 class="text-5xl text-left font-bold">Sobre Nosotros</h2>
+            <p class="text-3xl text-left">Wolrd Bites es un restaurante dedicado a la cocina internacional para que cualquier persona con curiosidad por la cocina de 
+                otros países y otras culturas puedan probar algunos de los platos más famosos. </p>
+        </article>
+    </section>
+    </main>
+    <footer class="flex flex-col md:flex-row justify-around p-5">
+        <div class="flex flex-row">
+        <div>
+            <h3><a class="font-bold" href="home.html">Home</a></h3>
+            <h3><a class="font-bold" href="carta.html">Carta</a></h3>
+        </div>
+        <div>
+            <h3><a class="font-bold" href="reserva.html">Reserva</a></h3>
+            <h3><a class="font-bold" href="platos.html">Platos</a></h3>
+        </div>
+        </div>
+        <div class="flex justify-around flex-col md:flex-row w-full md:w-1/6 items-center">
+            <svg class="h-8 w-8 "  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg>
+            <svg class="h-8 w-8"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
+            <svg class="h-8 w-8"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84 0 0 0 .497 -3.753C20.18 7.773 21.692 5.25 22 4.009z" /></svg>
+        </div>
+    </footer>
+    <script src="../js/index.js"></script>
+</body>
+</html>
